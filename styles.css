@@ -1,0 +1,128 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Lexend Mega", sans-serif;
+  color: black;
+  background-color: white;
+  text-align:center;
+  font-size: 22px;
+  margin:0 auto;
+  opacity:0.9;
+}
+
+a{
+  color:black;
+}
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 20px;
+}
+
+
+/***************************** header ******************************/
+.header h1{
+  text-align:center;
+  margin:0 auto; 
+  padding:30px;
+}
+
+
+.header .navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding-bottom:50px;
+  align-items: cetner;
+}
+
+
+/***************************** mission ******************************/
+.mission{
+  background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+  display: flex;
+  height: 400px;
+  padding-top:25px;
+
+}
+ .content{
+  margin: auto;
+  background-color: white;
+  width: 100%; 
+}
+
+/***************************** portfolio ******************************/
+#portfolio .companies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding:40px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company img{
+  width:200px;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company span{
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+}
+
+
+/***************************** team-container ******************************/
+#team-container h2{
+  padding:30px;
+}
+
+.team {
+  background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.teammate {
+  padding: 10px;
+  color: white;
+  flex-basis: 280px;
+}
+
+.teammate img{
+  width:200px;
+  height:auto;
+}
+
+/***************************** contact ******************************/
+.contact h2, .contact h5{
+  padding:10px;
+}
+/***************************** copyright ******************************/
+.copyright h5{
+  padding-top:30px;
+}
